@@ -1,11 +1,8 @@
-import subprocess
-import os
 
 
-var = subprocess.run('netstat -a', shell=True, capture_output=True, text=True, timeout=1)
-#Returns: CompletedProcess(args='tree', returncode=0)
+# var = 
+# #Returns: None
+# print(f'{var}\n{type(var)}')
 
-with open('python.txt', 'wt+') as file:
-    file.write(str(var.stdout))
-
-print(f'{var}\n{type(var)}')
+#O/P: 
+#Returns: 
